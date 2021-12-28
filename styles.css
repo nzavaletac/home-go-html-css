@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.header {
+  align-items: center;
+  background: #1e1e1e;
+  color: #fff;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+
+  top: 0px;
+  width: 100%;
+}
+
+.header__img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.header__menu {
+  margin-right: 30px;
+}
+
+.header__menu ul {
+  display: none;
+  list-style: none;
+  margin: 0px 0px 0px -14px;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+  font-size: 15px;
+}
+
+.header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+
+.header__menu li {
+  margin: 10px 0px;
+}
+
+.header__menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.header__menu--profile {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.header__menu--profile img {
+  margin-right: 8px;
+  width: 50px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.main__title {
+  color: #fff;
+  font-size: 25px;
+}
+
+.input {
+  background-color: #1e1e1e;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 20px;
+  width: 60%;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+
+.container1 h1 {
+  font-size: 55px;
+  padding: 0px;
+}
+
+.container1 p {
+  font-size: 16px;
+}
+
+.container2 {
+  display: flex;
+}
+
+.btn1 {
+  width: 180px;
+  height: 52px;
+  background: #00b6f0;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 180px;
+  height: 52px;
+  background: #ffffff;
+  color: #1e1e1e;
+  cursor: pointer;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
