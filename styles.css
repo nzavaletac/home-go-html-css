@@ -112,6 +112,7 @@ ul:hover {
 .container1 h1 {
   font-size: 55px;
   padding: 0px;
+  color: #00b6f0;
 }
 
 .container1 p {
@@ -142,4 +143,25 @@ ul:hover {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+
+.container__footer {
+  background: #1e1e1e;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.footer__links {
+  margin: 0px 25px;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+.footer__links:hover {
+  text-decoration: underline;
 }
